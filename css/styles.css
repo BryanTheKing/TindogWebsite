@@ -15,12 +15,15 @@ h1 {
     font-family: 'Montserrat-Bold';
     font-size: 1.5rem;
 }
+
+                                                                    /*title*/
+
 #title{
     background-color: #ff4c68;
     color: white;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 
 }
 .navbar{
@@ -44,9 +47,18 @@ h1 {
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    position: relative;
+    left: 10%;
+    
 }
+
+                                                                            /*features*/
+
 #features{
     padding: 7% 15%;
+
+    
+    
 }
 .feature-box{
     text-align: center;
@@ -59,6 +71,9 @@ h1 {
 .icon:hover{
     color: #ff4c68;
 }
+
+                                                                            /*testimonials*/
+
 #testimonial{
     padding: 7% 15%;
     text-align: center;
@@ -81,4 +96,21 @@ h1 {
 }
 .carousel-item{
     padding: 7% 15%;
+}
+
+
+                                                                                    /*pricing*/
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
 }
